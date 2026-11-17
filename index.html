@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeDoodle</title>
+<style>
+:root { --bg:#FFFFFF; --card:#F6F5F2; --text:#16171B; --muted:#5B5E68; --link:#4A3BEF; --border:#E3E1DC; --primary:#5A4BFF; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0E0F12; --card:#1A1B20; --text:#F5F4F2; --muted:#A9ABB3; --link:#A99FFF; --border:#2E3038; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display:flex; align-items:center; gap:12px; margin-bottom: 28px; }
+.logo { width:44px; height:44px; border-radius:12px; background:var(--primary); display:grid; place-items:center; flex:none; }
+.brand { font-weight:800; font-size:22px; color:var(--text); text-decoration:none; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 32px 0 8px; }
+p, li { color: var(--text); }
+.muted, em { color: var(--muted); }
+a { color: var(--link); }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:20px; padding:20px; margin:20px 0; }
+footer { margin-top: 48px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+<header><span class="logo" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 64 64">
+<path d="M32 30c-4-6-12-8-18-4-4 3-6 9-11 9 3 6 11 8 17 5 5-2 9-6 12-10 3 4 7 8 12 10 6 3 14 1 17-5-5 0-7-6-11-9-6-4-14-2-18 4z" fill="#fff"/>
+</svg></span><a class="brand" href="/homedoodle/">HomeDoodle</a></header>
+<h1>Doodle on your friends' faces, live.</h1>
+<p>HomeDoodle is a video chat for up to 4 people on the same Wi-Fi. Draw on each
+other's faces and stick on hats, glasses and mustaches that follow your head as
+you move.</p>
+<div class="card">
+<p><strong>Private by design.</strong> Your video goes straight between the phones
+in the room, over your Wi-Fi, encrypted. Nothing is recorded or saved, and there
+are no accounts.</p>
+<p class="muted">The app is free, with a short kid-safe ad before a room starts.</p>
+</div>
+<p><a href="/homedoodle/privacy/">Privacy policy</a></p>
+<footer>Contact: <a href="mailto:eternal.envy.app@gmail.com">eternal.envy.app@gmail.com</a></footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeDoodle privacy policy</title>
+<style>
+:root { --bg:#FFFFFF; --card:#F6F5F2; --text:#16171B; --muted:#5B5E68; --link:#4A3BEF; --border:#E3E1DC; --primary:#5A4BFF; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0E0F12; --card:#1A1B20; --text:#F5F4F2; --muted:#A9ABB3; --link:#A99FFF; --border:#2E3038; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text);
+  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display:flex; align-items:center; gap:12px; margin-bottom: 28px; }
+.logo { width:44px; height:44px; border-radius:12px; background:var(--primary); display:grid; place-items:center; flex:none; }
+.brand { font-weight:800; font-size:22px; color:var(--text); text-decoration:none; }
+h1 { font-size: 30px; line-height:1.2; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 32px 0 8px; }
+p, li { color: var(--text); }
+.muted, em { color: var(--muted); }
+a { color: var(--link); }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:20px; padding:20px; margin:20px 0; }
+footer { margin-top: 48px; color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+<header><span class="logo" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 64 64">
+<path d="M32 30c-4-6-12-8-18-4-4 3-6 9-11 9 3 6 11 8 17 5 5-2 9-6 12-10 3 4 7 8 12 10 6 3 14 1 17-5-5 0-7-6-11-9-6-4-14-2-18 4z" fill="#fff"/>
+</svg></span><a class="brand" href="/homedoodle/">HomeDoodle</a></header>
+<h1>HomeDoodle privacy policy</h1>
+<p><em>Last updated: November 2026</em></p>
+<p>HomeDoodle is a video chat app for up to 4 people on the same Wi-Fi, who can doodle on each other's faces. The call itself works without the internet, and the app keeps nothing. The app is free and shows a kid-safe ad before a room starts.</p>
+<h2>The short version</h2>
+<ul><li><strong>We collect nothing ourselves.</strong> HomeDoodle has no servers, no accounts, no analytics and no crash reporting. We never receive any information about you.</li><li><strong>Ads come from Google.</strong> When the phone has internet, a short ad from Google AdMob is shown before a room starts. These ads are always set up for children: not personalised, no tracking across apps, and only ads suitable for everyone. Google receives some technical information to show them (see "Ads" below).</li><li><strong>Nothing is recorded or saved.</strong> No video, audio, photos or drawings are stored on your phone or anywhere else.</li><li><strong>Everything stays on your Wi-Fi.</strong> Video, sound and drawings go directly between the phones in a room, over the local network, encrypted.</li></ul>
+<h2>What the app uses, and why</h2>
+<p><strong>Your name.</strong> You type a display name so friends know who is who. It is stored only on your phone. People in a room see it, and the first part of it (up to 12 characters) is shown on the room's card to other phones on the same Wi-Fi.</p>
+<p><strong>Camera and microphone.</strong> Used only while you are in a room, so the other people in that room can see and hear you. Your video and sound are sent directly to their phones over your Wi-Fi, encrypted (WebRTC with DTLS-SRTP). They are never sent to us or to any server, and never recorded.</p>
+<p><strong>Face tracking.</strong> Your phone finds your face in its own camera image, on the phone itself. Only the position, size and tilt of your face (four numbers, about 30 times a second) are shared with the phones in the room, so drawings can follow your head. No face images or face data are stored.</p>
+<p><strong>Drawings and stickers.</strong> Shared with the phones in the room while you are in it. They disappear when the room ends. Nothing is saved.</p>
+<p><strong>Rooms on your Wi-Fi.</strong> So friends can find a room, the phone hosting it announces the room's name, the first names of the people in it, and how many people are in it, to devices on the same Wi-Fi. The room's password is never announced or sent over the network; phones prove they know it without sending it.</p>
+<p><strong>Local network access.</strong> Needed to find rooms and connect to the other phones on your Wi-Fi.</p>
+<p><strong>Ads.</strong> Before you create or join a room, HomeDoodle may show one full-screen ad from Google AdMob, at most once every few minutes and never during a call. Every ad request tells Google the user may be a child, so the ads are not personalised, are not based on what you do in other apps, and are limited to content rated for general audiences. HomeDoodle does not use your phone's advertising ID. To show an ad, Google receives information such as your IP address (which gives a rough idea of location), the type of phone, and whether the ad was shown or tapped. Google's own policy explains how it uses this: <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a>. With no internet, no ad is shown and nothing is sent. Your video, voice, drawings, name and room are never shared with Google or with any ad.</p>
+<p><strong>Location (optional, Android only).</strong> Android only tells apps the name of your Wi-Fi network if they are allowed to see location. HomeDoodle asks for this only if you tap "Show Wi-Fi name", uses it only to show that name, and never reads or stores your location.</p>
+<h2>Children</h2>
+<p>HomeDoodle has no in-app purchases, no text chat and no links out of the app. Its ads are always child-directed, non-personalised and rated for general audiences, through Google AdMob, which takes part in Google Play's Families program. Rooms have a password by default, so only people who know it can join; the person creating a room can choose to leave it open to anyone on the same Wi-Fi. We collect no data from anyone, including children; the only information that leaves the phone is what Google needs to show a kid-safe ad, described above.</p>
+<h2>Third-party code</h2>
+<p>HomeDoodle uses open-source libraries (Flutter, WebRTC, Google's MediaPipe for on-device face tracking) and the Google Mobile Ads SDK for ads. MediaPipe normally sends usage statistics to Google; HomeDoodle removes that part, so it cannot send anything.</p>
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version will appear here with a new date.</p>
+<p>Questions: <a href="mailto:eternal.envy.app@gmail.com">eternal.envy.app@gmail.com</a></p>
+<footer>Contact: <a href="mailto:eternal.envy.app@gmail.com">eternal.envy.app@gmail.com</a></footer>
+</main>
+</body>
+</html>
